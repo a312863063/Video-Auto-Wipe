@@ -28,8 +28,8 @@
 
 ### 2.运行方法
 &emsp;&emsp;下载预训练文件放在pretrained-weight文件夹里。<br/>
-&emsp;&emsp;&emsp;&emsp;预训练模型下载地址：https://pan.baidu.com/s/12Kv9DkyhLE5sWEiwm59_IA  提取码：pela <br/> <br/>
-&emsp;&emsp;更多的输入样例下载地址：https://pan.baidu.com/s/1R366Zu8TGMyv5C9kXkC9Gw  提取码：x73i <br/>
+&emsp;&emsp;&emsp;&emsp;预训练模型下载地址：链接：https://pan.baidu.com/s/1JN9-8Glw_ozOrSMgBIyHOw 提取码：px0s <br/> <br/>
+&emsp;&emsp;更多的输入样例下载地址：https://pan.baidu.com/s/1R366Zu8TGMyv5C9kXkC9Gw  提取码：x73i <br/><br/>
 &emsp;&emsp;运行```python demo.py```。<br/><br/><br/><br/>
 
 # 训练方法
@@ -38,13 +38,13 @@
 &emsp;&emsp;1.基于搜集的300余部高清电影制作了2,709部电影片段数据集；<br/>
 &emsp;&emsp;&emsp;&emsp;下载地址：https://pan.baidu.com/s/1CIgJmFmx5iR2JfgAyjVaeg  提取码：xb7o <br/><br/>
 &emsp;&emsp;2.基于搜集的40余部综艺节目制作了864部综艺片段数据集；<br/>
-&emsp;&emsp;&emsp;&emsp;下载地址：https://pan.baidu.com/s/1lJk6IIWlwxknAie0LlGYOg  提取码：9rd4 <br/><br/><br/>
+&emsp;&emsp;&emsp;&emsp;下载地址：https://pan.baidu.com/s/1lJk6IIWlwxknAie0LlGYOg  提取码：9rd4 <br/><br/>
 
 ### 前景数据制作
 &emsp;&emsp;1.字幕擦除：利用ImageDraw库生成随机样式、字体的文字，并模拟其变换；<br/>
 &emsp;&emsp;2.图标擦除：利用ImageDraw库生成随机的像素区块，并模型时域一致性（固定在视频中的某一个区域）；<br/>
 &emsp;&emsp;3.动态图标擦除：利用PR软件制作闪烁、跳跃等字幕的动态特效，模拟动态图标的场景。<br/>
-<br/><br/>
+<br/>
 ### 训练过程
 &emsp;&emsp;第1步. 针对特定任务的时域感知训练，即让模型能感知到需被擦除的前景数据；<br/>
 &emsp;&emsp;第2步. 融合进擦除模型，进行端到端的微调训练。<br/>
