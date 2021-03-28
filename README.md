@@ -29,7 +29,7 @@
 ### 2.运行方法
 &emsp;&emsp;下载预训练文件放在pretrained-weight文件夹里。<br/>
 &emsp;&emsp;&emsp;&emsp;预训练模型下载地址：链接：https://pan.baidu.com/s/1JN9-8Glw_ozOrSMgBIyHOw 提取码：px0s <br/> <br/>
-&emsp;&emsp;更多的输入样例下载地址：https://pan.baidu.com/s/1R366Zu8TGMyv5C9kXkC9Gw  提取码：x73i <br/><br/>
+&emsp;&emsp;更多的输入样例下载地址：https://pan.baidu.com/s/1_tzmvIoEQi3h_24-ieZJ_Q 提取码：cnqf <br/><br/>
 &emsp;&emsp;运行```python demo.py```。<br/><br/><br/><br/>
 
 # 训练方法
