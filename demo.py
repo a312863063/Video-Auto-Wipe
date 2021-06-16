@@ -24,7 +24,7 @@ parser.add_argument("-v", "--video", type=str, default='input/detext_examples/ch
 parser.add_argument("-m", "--mask",  type=str, default='input/detext_examples/mask/chinese1_mask.png')
 parser.add_argument("-r", "--result",  type=str, default='result/')
 parser.add_argument("-d", "--dual",  type=bool, default=False, help='Whether to display the original video in the final video')
-parser.add_argument("-w", "--weight",   type=str, default='pretrained-weight/detext_trial.pth')
+parser.add_argument("-w", "--weight",   type=str, default='pretrained_weight/detext_trial.pth')
 
 parser.add_argument("--model", type=str, default='auto-sttn')
 parser.add_argument("-g", "--gap",   type=int, default=200, help='set it higher and get result better')
