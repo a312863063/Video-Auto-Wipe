@@ -1,6 +1,6 @@
 # Video-Auto-Wipe
 - 20210328 这个项目展示的是我在视频擦除方面的一些探索。目前已实现的功能有三个：字幕擦除，图标擦除和动态遮挡物擦除。<b>目前仅分享字幕擦除</b>，其它模型属于客户定制，相关介绍可以参阅<a href='http://www.seeprettyface.com/research_notes_page3.html#intership'>我的研究笔记</a>。<br />
-- 20221230 水印擦除模型优化完成，适用于平铺水印的擦除<br />
+- 20221230 水印擦除模型优化完成，适用于平铺水印的擦除，无公开和商用计划<br />
 ![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-watermark/watermark_effect.png)<br/><br /><br />
 
 # 效果预览
