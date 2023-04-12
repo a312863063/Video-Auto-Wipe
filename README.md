@@ -2,7 +2,7 @@
 If you are interested in AIGC application tools, you can learn a bit about it on [this blog](https://www.seeprettyface.com/).<br />
 --------------------------------------------------------------------------------------------------<br /><br />
 
-Erase the fixed-pattern content you don't want to see in your video. This project shares a model for subtitle removal.
+Erase the fixed-pattern content you don't want to see in your video. This project shares a model for subtitle removal.<br /><br />
 
 # 效果预览
 ## 1. 字幕擦除
