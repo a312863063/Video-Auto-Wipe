@@ -4,22 +4,28 @@ If you are interested in AIGC application tools, you can learn a bit about it on
 
 Erase the fixed-pattern content you don't want to see in your video. This project shares a model for subtitle removal and demonstrates the effectiveness of erasing content with easily recognizable patterns, such as subtitles, logos, and animated icons.<br /><br />
 
-# 效果预览
+### 26-新版效果
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/new_detext.jpg)<br/>
+<p align="center"><a href='https://www.seeprettyface.com/mp4/welcome_detext.mp4' target='_blank'>查看视频</a></p><br/>
+&emsp;&emsp;新版擦除模型对于文字和细节内容还原做了优化，时域找寻与补全能力加强。<br/>
+<br/><br/>
+
+# 效果预览（原始）
 ## 1. 字幕擦除
 ![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/detext_9_ko.JPG)<br/>
-<p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/detext_06.mp4' target='_blank'>查看视频</a></p><br/>
+<p align="center"><a href='https://www.seeprettyface.com/mp4/video-inpainting/detext_06.mp4' target='_blank'>查看视频</a></p><br/>
 &emsp;&emsp;字幕擦除模型的功能是模型自动感知到视频中字幕的位置然后进行擦除，感知字幕的方法为具有统一样式的文字区域被视作字幕。<br/>
 <br/><br/>
 
-## 2. 图标擦除
+## 2. 图标擦除（未开源）
 ![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/delogo_4.JPG)<br/>
-<p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/delogo_04.mp4' target='_blank'>查看视频</a></p><br/>
+<p align="center"><a href='https://www.seeprettyface.com/mp4/video-inpainting/delogo_04.mp4' target='_blank'>查看视频</a></p><br/>
 &emsp;&emsp;图标擦除模型的功能是模型自动感知到视频中图标的位置然后进行擦除，感知图标的方法为在时域上静止不动的像素块被视作图标。<br/>
 <br/><br/>
 
-## 3. 动态图标擦除
+## 3. 动态图标擦除（未开源）
 ![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-dynamic-logo/de-dynamic-logo_1.JPG)<br/>
-<p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/de_dynamic_logo.mp4' target='_blank'>查看视频</a></p><br/>
+<p align="center"><a href='https://www.seeprettyface.com/mp4/video-inpainting/de_dynamic_logo.mp4' target='_blank'>查看视频</a></p><br/>
 &emsp;&emsp;动态图标擦除模型的功能是模型自动感知到视频中动态图标的位置然后进行擦除，感知动态图标的方法为在时域上闪烁出现或动态移动的固定像素块被视作动态图标。<br/>
 <br/><br/>
 
