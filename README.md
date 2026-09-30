@@ -1,14 +1,9 @@
 # Video-Auto-Wipe
 If you are interested in AIGC application tools, you can learn a bit about it on [this blog](https://www.seeprettyface.com/).<br />
 --------------------------------------------------------------------------------------------------<br /><br />
-
 Erase the fixed-pattern content you don't want to see in your video. This project shares a model for subtitle removal and demonstrates the effectiveness of erasing content with easily recognizable patterns, such as subtitles, logos, and animated icons.<br /><br />
 
-### 26-新版效果
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/new_detext.jpg)<br/>
-<p align="center"><a href='https://www.seeprettyface.com/mp4/welcome_detext.mp4' target='_blank'>查看视频</a></p><br/>
-&emsp;&emsp;新版擦除模型对于文字和细节内容还原做了优化，时域找寻与补全能力加强。<br/>
-<br/><br/>
+
 
 # 效果预览（原始）
 ## 1. 字幕擦除
